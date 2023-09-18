@@ -21,7 +21,7 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 		<link href="css/tiny-slider.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-		<title>Furni Free Bootstrap 5 Template for Furniture and Interior Design Websites by Untree.co </title>
+		<title>Weather Forecast </title>
 	</head>
 
 	<body>
@@ -63,155 +63,201 @@
 				
 		</nav>
 		<!-- End Header/Navigation -->
+		
+		<div style="background-color: #40513B; width: 100%; height: 200px; padding:70px" >
+			<div class="row justify-content-between align-items-center" >
+				<input type="text" placeholder="Search by name or location" style="border-radius: 40px; margin: auto; width:500px; height:60px;text-align: center;">
+										
+			</div>
+		</div>
 
-		<!-- Start Hero Section -->
-			<div class="hero">
-				<div class="container">
-					<div class="row justify-content-between">
-						<div class="col-lg-5">
-							<div class="intro-excerpt">
-								<h1>Weather & Hazards</h1>
+		<!--Main Section-->
+		<div class="untree_co-section product-section before-footer-section" style="background-color:#F5F0BB;">
+			<h1 style="margin-left: 250px;">Today's Weather</h1>
+
+		    <div class="container">
+				<div style="display: flex; margin:20px" >
+
+					<!--Left Block-->
+					<div class="row" style="width: 40%; margin:20px">
+						<div>
+							<div style="background-color:white; border-radius: 25px; text-align:center; width:300px; margin:auto; color: black;" >
+								<p>Singapore</p>
+								<h2>08:50 AM</h2>
+								<p>Saturday, 21 Sept 2023</p>
 							</div>
 						</div>
-						<div class="col-lg-7">
+					</div>
+
+					<!--Right block-->
+					<div class="row" style="width: 50%; margin:20px;"  > 
+
+						<!--Extra details block-->
+						<div style="border-radius:25px; padding: 10px;background-color:white;">
+							<p>Extra Details</p>
+							<div class="col d-flex justify-content-center" style="display: flex">
+
+								<!--Left Part-->
+								<div style="  text-align:center; width:33.3%; margin:auto; color: black;" >
+									<div style="display: flex; ">
+										<div style="margin:auto; width:50%;"><img width="50%" height="auto" src="https://img.icons8.com/ios/50/moisture.png" alt="humidity"/><p>41%<br>Humidity</p></div>
+										<div style="margin:auto; width:50%;"><img width="50%" height="auto" src="https://img.icons8.com/ios/50/wind--v1.png" alt="wind"/><p>2km/h<br>Wind Speed</p></div>
+									</div>
+									<div style="display: flex;">
+										<div style="margin:auto;width:50%;"><img width="50%" height="auto" src="https://img.icons8.com/ios/50/pressure.png" alt="pressure"/><p>996hPa<br>Pressure</p></div>
+										<div style="margin:auto;width:50%;"><img width="50%" height="auto" src="https://img.icons8.com/external-bearicons-detailed-outline-bearicons/64/external-UV-alert-and-warning-bearicons-detailed-outline-bearicons.png" alt="uv"/><p>8<br>UV</p></div>
+									</div>
+								</div>
+
+								<!--Middle Part-->
+								<div style="text-align:center; width:33.3%; margin:auto; color: black;" >
+									<img width="60%" height="auto" src="https://img.icons8.com/color/48/sun--v1.png" alt="sunny"/><br><br><h2>Sunny</h2>
+								</div>
+
+								<!--Right Part-->
+								<div style=" text-align:center; width:33.3%; margin:auto; color: black;" >
+									<h1>30°C</h1>
+									<p>Feels like 32°C </p>
+									<div>
+										<div style="display: flex; height:50%;justify-content:center;">
+											<img width="25%" height="90%" src="https://img.icons8.com/ios/50/sunrise--v1.png" alt=""><div><h6>Sunrise</h6><p>08:37 AM</p></div>
+										</div>
+										<br>
+										<div style="display: flex; height:50%;justify-content:center;">
+											<img width="25%" height="90%" src="https://img.icons8.com/ios/50/sunset--v1.png" alt=""><div><h6>Sunset</h6><p>20:37 PM</p></div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Hourly Forecast-->
+						<div style="border-radius:25px; padding: 10px;background-color:white; margin-top:15px; text-align:center; color:black;">
+							<h1>Hourly Forecast</h1>
+							<div style="display: flex;">
+								<!-- Time Slot 1-->
+								<div style="background-image: linear-gradient(lightblue, white); width:18%;border-radius:25px;">
+									<h5 style="margin-top: 20px;">12:00</h5>
+									<img width="60" height="60" src="https://img.icons8.com/color/48/sun--v1.png" alt="sunny" style="margin-top: 10px;"/> 
+									<h5 style="margin-top: 10px;">30°C</h5>
+									<img width="50" height="50" src="https://img.icons8.com/office/40/gps-device.png" alt="arrow" style="margin-top: 10px;"/>
+									<h5 style="margin-top: 20px;margin-bottom:70px;">3km/h</h5>
+								</div>
+
+								<!-- Time Slot 2-->
+								<div style="background-image: linear-gradient(lightblue, white); width:18%; margin-left:20px;border-radius:25px;">
+									<h5 style="margin-top: 20px;">15:00</h5>
+									<img width="60" height="60" src="https://img.icons8.com/color/48/sun--v1.png" alt="sunny" style="margin-top: 10px;"/> 
+									<h5 style="margin-top: 10px;">32°C</h5>
+									<img width="50" height="50" src="https://img.icons8.com/office/40/gps-device.png" alt="arrow" style="margin-top: 10px;"/>
+									<h5 style="margin-top: 20px;margin-bottom:70px;">2km/h</h5>
+								</div>
+
+								<!-- Time Slot 3-->
+								<div style="background-image: linear-gradient(orange, white); width:18%; margin-left:20px;border-radius:25px;">
+									<h5 style="margin-top: 20px;">18:00</h5>
+									<img width="60" height="60" src="https://img.icons8.com/color/48/sun--v1.png" alt="sunny" style="margin-top: 10px;"/> 
+									<h5 style="margin-top: 10px;">29°C</h5>
+									<img width="50" height="50" src="https://img.icons8.com/office/40/gps-device.png" alt="arrow" style="margin-top: 10px;"/>
+									<h5 style="margin-top: 20px;margin-bottom:70px;">4km/h</h5>
+								</div>
+
+								<!-- Time Slot 4-->
+								<div style="background-image: linear-gradient(#321759, white); width:18%; margin-left:20px;border-radius:25px;">
+									<h5 style="margin-top: 20px;">21:00</h5>
+									<img width="60" height="60" src="https://img.icons8.com/color/48/clouds.png" alt="sunny" style="margin-top: 10px;"/> 
+									<h5 style="margin-top: 10px;">23°C</h5>
+									<img width="50" height="50" src="https://img.icons8.com/office/40/gps-device.png" alt="arrow" style="margin-top: 10px;"/>
+									<h5 style="margin-top: 20px;margin-bottom:70px;">4km/h</h5>
+								</div>
+
+								<!-- Time Slot 5-->
+								<div style="background-image: linear-gradient(#321759, white); width:18%; margin-left:20px;border-radius:25px;"">
+									<h5 style="margin-top: 20px;">00:00</h5>
+									<img width="60" height="60" src="https://img.icons8.com/color/48/clouds.png" alt="sunny" style="margin-top: 10px;"/> 
+									<h5 style="margin-top: 10px;">22°C</h5>
+									<img width="50" height="50" src="https://img.icons8.com/office/40/gps-device.png" alt="arrow" style="margin-top: 10px;"/>
+									<h5 style="margin-top: 20px;margin-bottom:70px;">4km/h</h5>
+								</div>
+							</div>
 							
 						</div>
-					</div>
+						
+
+						<!--7 Days Forecast-->
+						<div style="border-radius:25px; padding: 10px;background-color:white; margin-top:15px;">
+							<div class="col d-flex justify-content-center">
+								<div style="text-align:center; margin:auto; color: black;" >
+									<h1>7 Days Forecast</h1>
+
+									<!--Day 1-->
+									<div style="display: flex; height:14%;margin-top:15px;">
+										<img width="60" height="60" src="https://img.icons8.com/color/48/sun--v1.png" alt="sunny" /> 
+										<h4 style="margin-left: 25px;">31°C</h4>	
+										<h4 style="margin-left: 25px;">Sunday, 24 Sept</h4>
+									</div>
+
+									<!--Day 2-->
+									<div style="display: flex; height:14%; margin-top:30px;">
+										<img width="60" height="60" src="https://img.icons8.com/color/48/light-rain--v1.png" alt="light-rain--v1" alt="light-rain" /> 
+										<h4 style="margin-left: 25px;">25°C</h4>	
+										<h4 style="margin-left: 25px;">Monday, 25 Sept</h4>
+									</div>
+
+									<!--Day 3-->
+									<div style="display: flex; height:14%;margin-top:30px;">
+										<img width="60" height="60" src="https://img.icons8.com/color/48/torrential-rain.png" alt="torrential-rain" /> 
+										<h4 style="margin-left: 25px;">20°C</h4>	
+										<h4 style="margin-left: 25px;">Tuesday, 26 Sept</h4>
+									</div>
+
+									<!--Day 4-->
+									<div style="display: flex; height:14%;margin-top:30px;">
+										<img width="60" height="60" src="https://img.icons8.com/color/48/partly-cloudy-day--v1.png" alt="partly-cloudy" /> 
+										<h4 style="margin-left: 25px;">30°C</h4>	
+										<h4 style="margin-left: 25px;">Wednesday, 26 Sept</h4>
+									</div>
+
+									<!--Day 5-->
+									<div style="display: flex; height:14%;margin-top:30px;">
+										<img width="60" height="60" src="https://img.icons8.com/color/48/clouds.png" alt="cloud" /> 
+										<h4 style="margin-left: 25px;">27°C</h4>	
+										<h4 style="margin-left: 25px;">Thursday, 27 Sept</h4>
+									</div>
+
+									<!--Day 6-->
+									<div style="display: flex; height:14%;margin-top:30px;">
+										<img width="60" height="60" src="https://img.icons8.com/color/48/light-rain--v1.png" alt="light-rain--v1" alt="light-rain" /> 
+										<h4 style="margin-left: 25px;">25°C</h4>	
+										<h4 style="margin-left: 25px;">Friday, 28 Sept</h4>
+									</div>
+
+									<!--Day 7-->
+									<div style="display: flex; height:14%;margin-top:30px;">
+										<img width="60" height="60" src="https://img.icons8.com/color/48/sun--v1.png" alt="sunny" /> 
+										<h4 style="margin-left: 25px;">31°C</h4>	
+										<h4 style="margin-left: 25px;">Saturday, 29 Sept</h4>
+									</div>
+
+								</div>
+								
+							</div>
+						</div>
+
+
+
+					</div>	
+	
 				</div>
-			</div>
-		<!-- End Hero Section -->
 
-		
-
-		<div class="untree_co-section product-section before-footer-section">
-		    <div class="container">
-		      	<div class="row">
-
-		      		<!-- Start Column 1 -->
-					<div class="col-12 col-md-4 col-lg-3 mb-5">
-						<a class="product-item" href="#">
-							<img src="images/product-3.png" class="img-fluid product-thumbnail">
-							<h3 class="product-title">Nordic Chair</h3>
-							<strong class="product-price">$50.00</strong>
-
-							<span class="icon-cross">
-								<img src="images/cross.svg" class="img-fluid">
-							</span>
-						</a>
-					</div> 
-					<!-- End Column 1 -->
-						
-					<!-- Start Column 2 -->
-					<div class="col-12 col-md-4 col-lg-3 mb-5">
-						<a class="product-item" href="#">
-							<img src="images/product-1.png" class="img-fluid product-thumbnail">
-							<h3 class="product-title">Nordic Chair</h3>
-							<strong class="product-price">$50.00</strong>
-
-							<span class="icon-cross">
-								<img src="images/cross.svg" class="img-fluid">
-							</span>
-						</a>
-					</div> 
-					<!-- End Column 2 -->
-
-					<!-- Start Column 3 -->
-					<div class="col-12 col-md-4 col-lg-3 mb-5">
-						<a class="product-item" href="#">
-							<img src="images/product-2.png" class="img-fluid product-thumbnail">
-							<h3 class="product-title">Kruzo Aero Chair</h3>
-							<strong class="product-price">$78.00</strong>
-
-							<span class="icon-cross">
-								<img src="images/cross.svg" class="img-fluid">
-							</span>
-						</a>
-					</div>
-					<!-- End Column 3 -->
-
-					<!-- Start Column 4 -->
-					<div class="col-12 col-md-4 col-lg-3 mb-5">
-						<a class="product-item" href="#">
-							<img src="images/product-3.png" class="img-fluid product-thumbnail">
-							<h3 class="product-title">Ergonomic Chair</h3>
-							<strong class="product-price">$43.00</strong>
-
-							<span class="icon-cross">
-								<img src="images/cross.svg" class="img-fluid">
-							</span>
-						</a>
-					</div>
-					<!-- End Column 4 -->
-
-
-					<!-- Start Column 1 -->
-					<div class="col-12 col-md-4 col-lg-3 mb-5">
-						<a class="product-item" href="#">
-							<img src="images/product-3.png" class="img-fluid product-thumbnail">
-							<h3 class="product-title">Nordic Chair</h3>
-							<strong class="product-price">$50.00</strong>
-
-							<span class="icon-cross">
-								<img src="images/cross.svg" class="img-fluid">
-							</span>
-						</a>
-					</div> 
-					<!-- End Column 1 -->
-						
-					<!-- Start Column 2 -->
-					<div class="col-12 col-md-4 col-lg-3 mb-5">
-						<a class="product-item" href="#">
-							<img src="images/product-1.png" class="img-fluid product-thumbnail">
-							<h3 class="product-title">Nordic Chair</h3>
-							<strong class="product-price">$50.00</strong>
-
-							<span class="icon-cross">
-								<img src="images/cross.svg" class="img-fluid">
-							</span>
-						</a>
-					</div> 
-					<!-- End Column 2 -->
-
-					<!-- Start Column 3 -->
-					<div class="col-12 col-md-4 col-lg-3 mb-5">
-						<a class="product-item" href="#">
-							<img src="images/product-2.png" class="img-fluid product-thumbnail">
-							<h3 class="product-title">Kruzo Aero Chair</h3>
-							<strong class="product-price">$78.00</strong>
-
-							<span class="icon-cross">
-								<img src="images/cross.svg" class="img-fluid">
-							</span>
-						</a>
-					</div>
-					<!-- End Column 3 -->
-
-					<!-- Start Column 4 -->
-					<div class="col-12 col-md-4 col-lg-3 mb-5">
-						<a class="product-item" href="#">
-							<img src="images/product-3.png" class="img-fluid product-thumbnail">
-							<h3 class="product-title">Ergonomic Chair</h3>
-							<strong class="product-price">$43.00</strong>
-
-							<span class="icon-cross">
-								<img src="images/cross.svg" class="img-fluid">
-							</span>
-						</a>
-					</div>
-					<!-- End Column 4 -->
-
-		      	</div>
-		    </div>
+			</div>	
 		</div>
 
 
 		<!-- Start Footer Section -->
 		<footer class="footer-section">
 			<div class="container relative">
-
-				<div class="sofa-img">
-					<img src="images/sofa.png" alt="Image" class="img-fluid">
-				</div>
 
 				<div class="row">
 					<div class="col-lg-8">
