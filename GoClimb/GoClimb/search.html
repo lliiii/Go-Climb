@@ -21,7 +21,48 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 		<link href="css/tiny-slider.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-		<title>Furni Free Bootstrap 5 Template for Furniture and Interior Design Websites by Untree.co </title>
+		<title>Search For Crags </title>
+
+
+
+		<style>
+			.side-container{
+				width: fit-content;
+				padding: 30px;
+				margin: 20px;
+				background-color: white;
+				font-size: 20px;
+				height: fit-content;
+				border-radius: 25px;
+			}
+
+			.flexbox-container{
+				display: flex;
+				padding: 20px;
+			}
+
+			.image-container{
+				width: 300px;
+				margin: 25px;
+				background-color:#B3C890;				;
+				font-size: 20px;
+				height: fit-content;
+				color: #40513B;
+				border-radius: 25px;
+			}
+
+			.image-result{
+				max-width: 100%;
+				max-height: 100%;
+				display: block;
+				border-radius: 25px;
+			}
+
+			.result{
+				padding: 5px;
+			}
+
+		</style>
 	</head>
 
 	<body>
@@ -64,270 +105,109 @@
 				
 		</nav>
 		<!-- End Header/Navigation -->
-
-		<!-- Start Hero Section -->
-			<div class="hero">
-				<div class="container">
-					<div class="row justify-content-between">
-						<div class="col-lg-5">
-							<div class="intro-excerpt">
-								<h1>About Us</h1>
-								<p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
-								<p><a href="" class="btn btn-secondary me-2">Shop Now</a><a href="#" class="btn btn-white-outline">Explore</a></p>
-							</div>
-						</div>
-						<div class="col-lg-7">
-							<div class="hero-img-wrap">
-								<img src="images/couch.png" class="img-fluid">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		<!-- End Hero Section -->
-
 		
 
-		<!-- Start Why Choose Us Section -->
-		<div class="why-choose-section">
-			<div class="container">
-				<div class="row justify-content-between align-items-center">
-					<div class="col-lg-6">
-						<h2 class="section-title">Why Choose Us</h2>
-						<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+		<!-- Search Section -->
 
-						<div class="row my-5">
-							<div class="col-6 col-md-6">
-								<div class="feature">
-									<div class="icon">
-										<img src="images/truck.svg" alt="Image" class="imf-fluid">
-									</div>
-									<h3>Fast &amp; Free Shipping</h3>
-									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
-								</div>
-							</div>
-
-							<div class="col-6 col-md-6">
-								<div class="feature">
-									<div class="icon">
-										<img src="images/bag.svg" alt="Image" class="imf-fluid">
-									</div>
-									<h3>Easy to Shop</h3>
-									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
-								</div>
-							</div>
-
-							<div class="col-6 col-md-6">
-								<div class="feature">
-									<div class="icon">
-										<img src="images/support.svg" alt="Image" class="imf-fluid">
-									</div>
-									<h3>24/7 Support</h3>
-									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
-								</div>
-							</div>
-
-							<div class="col-6 col-md-6">
-								<div class="feature">
-									<div class="icon">
-										<img src="images/return.svg" alt="Image" class="imf-fluid">
-									</div>
-									<h3>Hassle Free Returns</h3>
-									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
-								</div>
-							</div>
-
-						</div>
-					</div>
-
-					<div class="col-lg-5">
-						<div class="img-wrap">
-							<img src="images/why-choose-us-img.jpg" alt="Image" class="img-fluid">
-						</div>
-					</div>
-
-				</div>
+		<!--Search Bar-->
+		<div style="background-color: #40513B; width: 100%; height: 200px; padding:70px" >
+			<div class="row justify-content-between align-items-center" >
+				<input type="text" placeholder="Search by name or location" style="border-radius: 40px; margin: auto; width:500px; height:60px;text-align: center;">
+										
 			</div>
 		</div>
-		<!-- End Why Choose Us Section -->
-
-		<!-- Start Team Section -->
-		<div class="untree_co-section">
-			<div class="container">
-
-				<div class="row mb-5">
-					<div class="col-lg-5 mx-auto text-center">
-						<h2 class="section-title">Our Team</h2>
-					</div>
+		
+		<!--Next section-->
+		<div class="flexbox-container" style="background-color:#F5F0BB;">
+			<!--Filter Section-->
+			<div class="side-container">
+				<b><h3>Filter Search</h3></b>
+				<br> 
+				<b><h5>- Condition</h5></b>
+				<input type="checkbox" id="cond" name="cond1" value="cond1">
+				<label for="cond1"> Condition 1</label><br>
+				<input type="checkbox" id="cond" name="cond2" value="cond2">
+				<label for="cond2"> Condition 2</label><br>
+				<input type="checkbox" id="cond" name="cond3" value="cond3">
+				<label for="cond3"> Condition 3</label><br>
+				<input type="checkbox" id="cond" name="cond4" value="cond4">
+				<label for="cond4"> Condition 4</label><br>
+				<input type="checkbox" id="cond" name="cond5" value="cond5">
+				<label for="cond5"> Condition 5</label><br>
+				<br>
+				<br>
+				<b><h5>- Location</h5></b>
+				<input type="checkbox" id="cond" name="loc1" value="loc1">
+				<label for="loc1"> Location 1</label><br>
+				<input type="checkbox" id="cond" name="loc2" value="loc2">
+				<label for="loc2"> Location 2</label><br>
+				<input type="checkbox" id="cond" name="loc3" value="loc3">
+				<label for="loc3"> Location 3</label><br>
+				<input type="checkbox" id="cond" name="loc4" value="loc4">
+				<label for="loc4"> Location 4</label><br>
+				<input type="checkbox" id="cond" name="loc5" value="loc5">
+				<label for="loc5"> Location 5</label><br>
+			</div>
+			
+			<!--Sort by-->
+			<div class="container" style="margin: 0 ; width:70%;  " >
+				<div class="flexbox-container">
+					<select name="sort" id="sort" style="width: 175px;border-radius: 25px; margin:25px;; margin-bottom: 0px; height:35px;" >
+						<option value="empty" selected>Sort by</option>
+						<option value="asc">Ascending</option>
+						<option value="dsc">Descending</option>
+					</select>
+											
 				</div>
 
-				<div class="row">
-
-					<!-- Start Column 1 -->
-					<div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-						<img src="images/person_1.jpg" class="img-fluid mb-5">
-						<h3 clas><a href="#"><span class="">Lawson</span> Arnold</a></h3>
-            <span class="d-block position mb-4">CEO, Founder, Atty.</span>
-            <p>Separated they live in.
-            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
-					</div> 
-					<!-- End Column 1 -->
-
-					<!-- Start Column 2 -->
-					<div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-						<img src="images/person_2.jpg" class="img-fluid mb-5">
-
-						<h3 clas><a href="#"><span class="">Jeremy</span> Walker</a></h3>
-            <span class="d-block position mb-4">CEO, Founder, Atty.</span>
-            <p>Separated they live in.
-            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
-
-					</div> 
-					<!-- End Column 2 -->
-
-					<!-- Start Column 3 -->
-					<div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-						<img src="images/person_3.jpg" class="img-fluid mb-5">
-						<h3 clas><a href="#"><span class="">Patrik</span> White</a></h3>
-            <span class="d-block position mb-4">CEO, Founder, Atty.</span>
-            <p>Separated they live in.
-            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
-					</div> 
-					<!-- End Column 3 -->
-
-					<!-- Start Column 4 -->
-					<div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-						<img src="images/person_4.jpg" class="img-fluid mb-5">
-
-						<h3 clas><a href="#"><span class="">Kathryn</span> Ryan</a></h3>
-            <span class="d-block position mb-4">CEO, Founder, Atty.</span>
-            <p>Separated they live in.
-            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
-
-          
-					</div> 
-					<!-- End Column 4 -->
-
+				<!--All results-->
+				<div class="flexbox-container">
 					
+					<div  class="image-container">
+						<img src="images/pexels-robert-forever-ago-2741648.jpg" alt="Image" class="image-result">
+						<br>
+						<p class="result">Result 1</p>
+					</div>
 
-				</div>
+					<div  class="image-container">
+						<img src="images/pexels-robert-forever-ago-2741648.jpg" alt="Image" class="image-result">
+						<br>
+						<p class="result">Result 2</p>
+					</div>
+
+					<div  class="image-container">
+						<img src="images/pexels-robert-forever-ago-2741648.jpg" alt="Image" class="image-result">
+						<br>
+						<p class="result">Result 3</p>
+					</div>
+				</div >
+				<div class="flexbox-container">
+					
+					<div  class="image-container">
+						<img src="images/pexels-suliman-sallehi-1576938.jpg" alt="Image" class="image-result">
+						<br>
+						<p class="result">Result 4</p>
+					</div>
+					<div  class="image-container">
+						<img src="images/pexels-suliman-sallehi-1576938.jpg" alt="Image" class="image-result">
+						<br>
+						<p class="result">Result 5</p>
+					</div>
+					<div  class="image-container">
+						<img src="images/pexels-suliman-sallehi-1576938.jpg" alt="Image" class="image-result">
+						<br>
+						<p class="result">Result 6</p>
+					</div>
+				</div >	
 			</div>
 		</div>
-		<!-- End Team Section -->
+			
+		<!-- End Search Section -->
 
-		
-
-		<!-- Start Testimonial Slider -->
-		<div class="testimonial-section before-footer-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-7 mx-auto text-center">
-						<h2 class="section-title">Testimonials</h2>
-					</div>
-				</div>
-
-				<div class="row justify-content-center">
-					<div class="col-lg-12">
-						<div class="testimonial-slider-wrap text-center">
-
-							<div id="testimonial-nav">
-								<span class="prev" data-controls="prev"><span class="fa fa-chevron-left"></span></span>
-								<span class="next" data-controls="next"><span class="fa fa-chevron-right"></span></span>
-							</div>
-
-							<div class="testimonial-slider">
-								
-								<div class="item">
-									<div class="row justify-content-center">
-										<div class="col-lg-8 mx-auto">
-
-											<div class="testimonial-block text-center">
-												<blockquote class="mb-5">
-													<p>&ldquo;Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.&rdquo;</p>
-												</blockquote>
-
-												<div class="author-info">
-													<div class="author-pic">
-														<img src="images/person-1.png" alt="Maria Jones" class="img-fluid">
-													</div>
-													<h3 class="font-weight-bold">Maria Jones</h3>
-													<span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
-												</div>
-											</div>
-
-										</div>
-									</div>
-								</div> 
-								<!-- END item -->
-
-								<div class="item">
-									<div class="row justify-content-center">
-										<div class="col-lg-8 mx-auto">
-
-											<div class="testimonial-block text-center">
-												<blockquote class="mb-5">
-													<p>&ldquo;Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.&rdquo;</p>
-												</blockquote>
-
-												<div class="author-info">
-													<div class="author-pic">
-														<img src="images/person-1.png" alt="Maria Jones" class="img-fluid">
-													</div>
-													<h3 class="font-weight-bold">Maria Jones</h3>
-													<span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
-												</div>
-											</div>
-
-										</div>
-									</div>
-								</div> 
-								<!-- END item -->
-
-								<div class="item">
-									<div class="row justify-content-center">
-										<div class="col-lg-8 mx-auto">
-
-											<div class="testimonial-block text-center">
-												<blockquote class="mb-5">
-													<p>&ldquo;Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.&rdquo;</p>
-												</blockquote>
-
-												<div class="author-info">
-													<div class="author-pic">
-														<img src="images/person-1.png" alt="Maria Jones" class="img-fluid">
-													</div>
-													<h3 class="font-weight-bold">Maria Jones</h3>
-													<span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
-												</div>
-											</div>
-
-										</div>
-									</div>
-								</div> 
-								<!-- END item -->
-
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Testimonial Slider -->
-
-		
 
 		<!-- Start Footer Section -->
 		<footer class="footer-section">
 			<div class="container relative">
-
-				<div class="sofa-img">
-					<img src="images/sofa.png" alt="Image" class="img-fluid">
-				</div>
 
 				<div class="row">
 					<div class="col-lg-8">
