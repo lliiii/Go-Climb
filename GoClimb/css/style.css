@@ -154,15 +154,31 @@ a {
         .hero .hero-img-wrap:after {
           top: -40px; } }
 
+.AR-margin{
+  margin-top: 30px;
+  margin-bottom: 30px;
 
-.profile-center{
-  /* position: relative;
-  display: inline-block;
-  background-color: #ffffff67; 
-  border-radius: 30px;
-  width: 100%;
-  height: 100%;
-  box-shadow: 5px 5px 10px rgba(41, 51, 46, 0.1); */
+}
+
+.AR-card{
+  border-radius:25px;
+  text-align: center;
+  padding: 40px;
+  background-color:white;
+  margin:40px; 
+  margin-top: 60px;
+  box-shadow: 5px 5px 10px rgba(41, 51, 46, 0.1);
+}
+@media (max-width: 576px) {
+  .AR-card {
+    width: 100%; /* Expand to the full screen width */
+    height: auto; /* Allow height to adjust proportionally */
+    width: auto;
+  }
+
+}
+.AR-phone{
+  margin:40px; 
 }
 .center-align-card{
   background-color:white; 
@@ -259,12 +275,11 @@ a {
       }
     }
 
-
 .profile-left {
-  position: relative;
+  /* position: relative; */
   top: 0;
   bottom:0;
-  display: inline-block;
+  /* display: inline-block; */
   z-index: 999;
   background-color: #ffffff00; 
   border-radius: 30px;
@@ -272,22 +287,43 @@ a {
   /* height: 500px; */
 }
 .profile-right {
-  position: relative;
-  display: inline-block;
+  /* position: relative; */
+  /* display: inline-block; */
   background-color: #aa979700; 
   border-radius: 30px;
   width: 850px;
   height: 100%;
 }
 .user-profile-card {
-  position: relative;
+  /* position: relative; */
   background-color: #ffffff; 
   border-radius: 30px;
   margin: 20px;
-  width: auto;
+  /* width: auto; */
   /* height: 100%; */
   padding: 30px;
   box-shadow: 5px 5px 10px rgba(41, 51, 46, 0.1);
+
+}
+@media (max-width: 576px) {
+  .profile-left {
+    width: auto; /* Expand to the full screen width */
+    height: auto; /* Allow height to adjust proportionally */
+  }
+
+}
+@media (max-width: 576px) {
+  .profile-right {
+    width: auto; /* Expand to the full screen width */
+    height: auto; /* Allow height to adjust proportionally */
+  }
+
+}
+@media (max-width: 576px) {
+  .user-profile-card {
+    width: auto; /* Expand to the full screen width */
+    height: auto; /* Allow height to adjust proportionally */
+  }
 
 }
 .explore-card {
@@ -332,7 +368,6 @@ a {
 }
 
 @media (max-width: 576px) {
-
   .GoClimb-plus-card {
     width: 100%; /* Expand to the full screen width */
     height: auto; /* Allow height to adjust proportionally */
@@ -400,6 +435,57 @@ a {
   box-shadow: 5px 5px 10px rgba(41, 51, 46, 0.1);
 
 }
+
+.search-left-card{
+  border-radius:25px;
+  padding: 30px;
+  background-color:white;
+  margin:20px; 
+  box-shadow: 5px 5px 10px rgba(41, 51, 46, 0.1);
+}
+@media (max-width: 576px) {
+  .search-left-card {
+    width: 100%; /* Expand to the full screen width */
+    height: auto; /* Allow height to adjust proportionally */
+    width: auto;
+  }
+
+}
+.search-right-card{
+  border-radius:25px;
+  padding: 30px;
+  background-color:white;
+  margin:20px; 
+  box-shadow: 5px 5px 10px rgba(41, 51, 46, 0.1);
+}
+@media (max-width: 576px) {
+  .search-right-card {
+    width: 100%; /* Expand to the full screen width */
+    height: auto; /* Allow height to adjust proportionally */
+    width: auto;
+  }
+
+}
+.search-image-container{
+  width: 220px;
+  background-color:#B3C890;
+  font-size: 20px;
+  height: fit-content;
+  color: #40513B;
+  border-radius: 25px;
+}
+
+.search-image-result{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  border-radius: 25px;
+}
+
+.result{
+  padding: 20px;
+}
+
 
 .btn {
   font-weight: 600;
